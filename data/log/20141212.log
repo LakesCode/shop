@@ -1,0 +1,3 @@
+[2014-12-12 12:42:33] /admin/index.php?act=store&op=store_joinin_verify ( act=store&op=store_joinin_verify ) 
+ERR: Db Error: Duplicate entry '2' for key 'PRIMARY'
+INSERT  INTO `demo`.`shopnc_store_extend` (store_id) VALUES ('2')

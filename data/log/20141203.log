@@ -1,0 +1,75 @@
+[2014-12-03 11:40:32] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'is_own_shop' in 'where clause'
+SELECT COUNT(*) AS nc_count FROM `demo`.`shopnc_store` WHERE ( is_own_shop = '0' ) ORDER BY store_id desc LIMIT 1  
+[2014-12-03 11:40:32] /admin/index.php?act=store&op=store ( act=store&op=store ) 
+ERR: Db Error: Unknown column 'is_own_shop' in 'where clause'
+SELECT * FROM `demo`.`shopnc_store` WHERE ( is_own_shop = '0' ) ORDER BY store_id desc LIMIT 0,10  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Table 'demo.shopnc_stat_order' doesn't exist
+SELECT  COUNT(*) as ordernum, SUM(order_amount) as orderamount, COUNT(DISTINCT buyer_id) as ordermembernum, AVG(order_amount) as orderavg  FROM `demo`.`shopnc_stat_order` WHERE ( order_isvalid = '1' ) AND (  (order_add_time BETWEEN '1417449600' AND '1417535999' ) ) LIMIT 1  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Table 'demo.shopnc_stat_ordergoods' doesn't exist
+SELECT  SUM(goods_num) as ordergoodsnum,AVG(goods_pay_price/goods_num) as priceavg  FROM `demo`.`shopnc_stat_ordergoods` WHERE ( order_isvalid = '1' ) AND (  (order_add_time BETWEEN '1417449600' AND '1417535999' ) ) LIMIT 1  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Unknown column 'is_virtual' in 'where clause'
+SELECT COUNT(*) as goodsnum, SUM(IF(goods_addtime>=1417449600 and goods_addtime<=1417535999,1,0)) as newgoods FROM `demo`.`shopnc_goods` WHERE ( is_virtual = '0' ) LIMIT 1000  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Table 'demo.shopnc_stat_order' doesn't exist
+SELECT  SUM(order_amount) as orderamount,DAY(FROM_UNIXTIME(order_add_time)) as dayval,HOUR(FROM_UNIXTIME(order_add_time)) as hourval  FROM `demo`.`shopnc_stat_order` WHERE ( order_isvalid = '1' ) AND (  (order_add_time BETWEEN '1417363200' AND '1417535999' ) ) GROUP BY dayval,hourval LIMIT 1000  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Table 'demo.shopnc_stat_order' doesn't exist
+SELECT  SUM(order_amount) as orderamount, store_id, store_name  FROM `demo`.`shopnc_stat_order` WHERE ( order_isvalid = '1' ) AND (  (order_add_time BETWEEN '1416931200' AND '1417535999' ) ) GROUP BY store_id ORDER BY orderamount desc LIMIT 1000  
+[2014-12-03 11:40:33] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Table 'demo.shopnc_stat_ordergoods' doesn't exist
+SELECT  sum(goods_num) as ordergoodsnum, goods_id, goods_name  FROM `demo`.`shopnc_stat_ordergoods` WHERE ( order_isvalid = '1' ) AND (  (order_add_time BETWEEN '1416931200' AND '1417535999' ) ) GROUP BY goods_id ORDER BY ordergoodsnum desc LIMIT 30  
+[2014-12-03 11:40:40] /admin/index.php?act=waybill&op=waybill_list ( act=waybill&op=waybill_list ) 
+ERR: Db Error: Table 'demo.shopnc_waybill' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `demo`.`shopnc_waybill` WHERE ( store_id = '0' ) LIMIT 1  
+[2014-12-03 11:40:40] /admin/index.php?act=waybill&op=waybill_list ( act=waybill&op=waybill_list ) 
+ERR: Db Error: Table 'demo.shopnc_waybill' doesn't exist
+SELECT * FROM `demo`.`shopnc_waybill` WHERE ( store_id = '0' ) ORDER BY waybill_usable desc LIMIT 0,10  
+[2014-12-03 11:41:14] /admin/index.php?act=mb_special&op=index_edit ( act=mb_special&op=index_edit ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) ORDER BY item_sort asc LIMIT 1000  
+[2014-12-03 11:41:15] /admin/index.php?act=mb_special&op=special_list ( act=mb_special&op=special_list ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `demo`.`shopnc_mb_special` LIMIT 1  
+[2014-12-03 11:41:15] /admin/index.php?act=mb_special&op=special_list ( act=mb_special&op=special_list ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special` ORDER BY special_id desc LIMIT 0,10  
+[2014-12-03 11:41:16] /admin/index.php?act=mb_special&op=index_edit ( act=mb_special&op=index_edit ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) ORDER BY item_sort asc LIMIT 1000  
+[2014-12-03 11:41:17] /admin/index.php?act=mb_special&op=special_list ( act=mb_special&op=special_list ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special' doesn't exist
+SELECT COUNT(*) AS nc_count FROM `demo`.`shopnc_mb_special` LIMIT 1  
+[2014-12-03 11:41:17] /admin/index.php?act=mb_special&op=special_list ( act=mb_special&op=special_list ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special` ORDER BY special_id desc LIMIT 0,10  
+[2014-12-03 11:41:19] /admin/index.php?act=mb_payment&op=mb_payment ( act=mb_payment&op=mb_payment ) 
+ERR: Db Error: Table 'demo.shopnc_mb_payment' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_payment` LIMIT 30  
+[2014-12-03 11:41:20] /admin/index.php?act=mb_special&op=index_edit ( act=mb_special&op=index_edit ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) ORDER BY item_sort asc LIMIT 1000  
+[2014-12-03 11:41:25] /admin/index.php?act=mb_special&op=index_edit ( act=mb_special&op=index_edit ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) ORDER BY item_sort asc LIMIT 1000  
+[2014-12-03 11:41:30] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) AND ( item_type = 'adv_list' ) LIMIT 1000  
+[2014-12-03 11:41:30] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+INSERT  INTO `demo`.`shopnc_mb_special_item` (special_id,item_type,item_usable,item_sort) VALUES ('0','adv_list','0','255')
+[2014-12-03 11:41:32] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+SELECT * FROM `demo`.`shopnc_mb_special_item` WHERE ( special_id = '0' ) AND ( item_type = 'adv_list' ) LIMIT 1000  
+[2014-12-03 11:41:32] /admin/index.php?act=mb_special&op=special_item_add ( act=mb_special&op=special_item_add ) 
+ERR: Db Error: Table 'demo.shopnc_mb_special_item' doesn't exist
+INSERT  INTO `demo`.`shopnc_mb_special_item` (special_id,item_type,item_usable,item_sort) VALUES ('0','adv_list','0','255')
+[2014-12-03 12:13:09] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Unknown column 'is_virtual' in 'where clause'
+SELECT COUNT(*) as goodsnum, SUM(IF(goods_addtime>=1417449600 and goods_addtime<=1417535999,1,0)) as newgoods FROM `demo`.`shopnc_goods` WHERE ( is_virtual = '0' ) LIMIT 1000  
+[2014-12-03 12:13:15] /admin/index.php?act=stat_general&op=general ( act=stat_general&op=general ) 
+ERR: Db Error: Unknown column 'is_virtual' in 'where clause'
+SELECT COUNT(*) as goodsnum, SUM(IF(goods_addtime>=1417449600 and goods_addtime<=1417535999,1,0)) as newgoods FROM `demo`.`shopnc_goods` WHERE ( is_virtual = '0' ) LIMIT 1000  

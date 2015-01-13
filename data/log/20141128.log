@@ -1,0 +1,27 @@
+[2014-11-28 18:32:04] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_groupbuy' doesn't exist
+SELECT * FROM `mall`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417170724' ) AND ( end_time > '1417170724' ) ORDER BY recommended desc LIMIT 1000  
+[2014-11-28 18:32:04] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `mall`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417170724' ) AND ( end_time > '1417170724' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-11-28 18:32:04] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_web' doesn't exist
+SELECT * FROM `mall`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-11-28 18:32:12] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_groupbuy' doesn't exist
+SELECT * FROM `mall`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417170732' ) AND ( end_time > '1417170732' ) ORDER BY recommended desc LIMIT 1000  
+[2014-11-28 18:32:12] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `mall`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417170732' ) AND ( end_time > '1417170732' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-11-28 18:32:12] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_web' doesn't exist
+SELECT * FROM `mall`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-11-28 18:32:13] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_groupbuy' doesn't exist
+SELECT * FROM `mall`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417170733' ) AND ( end_time > '1417170733' ) ORDER BY recommended desc LIMIT 1000  
+[2014-11-28 18:32:13] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `mall`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417170733' ) AND ( end_time > '1417170733' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-11-28 18:32:13] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Table 'mall.shopnc_web' doesn't exist
+SELECT * FROM `mall`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  

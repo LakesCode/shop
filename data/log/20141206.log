@@ -1,0 +1,45 @@
+[2014-12-06 13:38:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `demo`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417844333' ) AND ( end_time > '1417844333' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-06 13:38:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `demo`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417844333' ) AND ( end_time > '1417844333' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-06 13:38:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `demo`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `demo`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `demo`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `demo`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `demo`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `demo`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `demo`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `demo`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `demo`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `demo`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `demo`.`shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `demo`.`shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1417844335' ) AND ( end_time > '1417844335' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-06 13:38:55] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `demo`.`shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  

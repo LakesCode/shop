@@ -1,0 +1,378 @@
+.bm_c { padding: 10px 0}
+.bbda { border-bottom: 1px dashed #E8E8E8}
+.bdimgshare-bg, .bdimgshare-content { display: none}
+#nv_portal .vw .o a { font-size: 12px; color: #666666}
+#article_content img { max-width: 700px}
+.ct2 .mn { width: 700px}
+.ct2 .sd { width: 220px}
+#nv_portal .vw .h, #nv_portal .vw .s, #nv_portal .vw .d, #nv_portal .vw .o, #nv_portal .vw .pren, #nv_forum .vw .h, #nv_forum .vw .s, #nv_forum .vw .d { margin-left: 0; margin-right: 0}
+.vw .text { line-height: 24px;font-size: 13px;font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei"}
+.vw p { overflow: hidden; padding-bottom: 4px; padding-top: 6px; word-wrap: break-word}
+.vw .s { margin-bottom: 20px}
+.hm { text-align: left}
+.vw .ph { font-size: 26px; font-weight: bold; padding: 10px 0 5px 0}
+.ie7 .love { margin: -16px 0 0 0}
+#nv_portal .vw .h { margin-bottom: 20px; border-bottom: 1px solid #DFDFDF}
+.pgs { border-bottom: 0}
+#click_div { display: none}
+
+.aprev { float: left; width: 330px; overflow: hidden}
+.anext { float: right; width: 330px; margin: 0 3px 0 0; overflow: hidden}
+.pren { padding: 25px 0 !important}
+#nv_portal .vw .pren p { padding: 0}
+#nv_portal .vw .pren em { width: 300px; padding-left: 30px; height: 28px; font-size: 18px; color: #000000; background: url(btn_page.jpg) no-repeat left 3px}
+#nv_portal .vw .pren em:hover { background: url(btn_page.jpg) no-repeat left -30px}
+#nv_portal .vw .pren em a:hover { color: #18A24C; text-decoration: underline}
+em.articlenext { text-align: right !important; padding: 0 30px 0 0 !important; background: url(btn_page.jpg) no-repeat right -61px !important}
+em.articlenext:hover { background: url(btn_page.jpg) no-repeat right -93px !important}
+.line { float: left; width: 1px; height: 28px; margin: 0 0 0 19px; background: none repeat 0 0 #C0C0C0}
+.ie7 .read { margin-top: -18px}
+.ie6 .read { margin-top: -18px !important}
+span.read a:hover { background: #ED4747 !important}
+
+
+/* 评论样式 */
+.tedt { border: medium none; width: 100%;overflow: hidden}
+.tedt .pt { width: 675px !important; min-height: 100px; _height: 100px; padding: 8px 10px !important; line-height: 1.6; border: 1px solid #DDDDDD; background-color: #FFFFFF; border-radius: 2px; overflow: hidden; vertical-align: middle; resize: vertical; color: rgb(130, 138, 147)}
+.tedt .pt.bgchange { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(187, 187, 187)}
+.tedt .area { padding: 0 !important}
+#commentsubmit_btn strong { color: #FFFFFF; font-size: 12px; font-weight: 100; font-family: "宋体"}
+button#commentsubmit_btn.pn { float: left; width: 160px; border: 0 !important; height: 40px; line-height: 40px; padding: 0; margin-top: 5px; text-align: center; overflow: visible !important; background: none repeat 0 0 #42B17E}
+button#commentsubmit_btn.pn:hover { background: #17955B}
+#comment_ul ul { float: left; width: 700px; padding-left: 0}
+#comment_ul .mbm { }
+.portrait {
+	float: left;
+	width: 50px;
+}
+.avataright { float: right; width: 620px; padding-bottom: 5px}
+.portrait img {
+    width: 40px;
+    height: 40px;
+    max-width: 100%;
+	padding: 2px;
+    border: 1px dotted #DDDDDD;
+}
+#comment_ul .username {
+    margin-right: 10px
+}
+#comment_ul .xg1, #comment_ul .xg1 a {
+    color: rgb(204, 204, 204) !important
+}
+.card_mn { background: #FFFFFF}
+.commentbox { padding: 0 10px 10px 10px; width: 675px; border: 1px dotted #DDDDDD; margin-bottom: 5px; background: #FDFDFD}
+.commentbox dd { float: right; width: 620px; line-height: 23px; margin: 1px 0 12px 0}
+.ie6 .commentbox, .ie7 .commentbox { padding: 10px}
+.commentbox:hover { background: #F2F2F2}
+.acmt { margin-left: 1px; _margin-left: 0}
+.ie7 .acmt { margin-left: -9px}
+
+
+.tit01 {
+    width: 100%;
+	padding: 0 0 10px 0;
+    overflow: hidden;
+    border-bottom: 3px solid #4A4A4A;
+}
+.tit01 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+
+.tit01 .addnew {
+    margin-left: 10px;
+    padding-left: 20px;
+	margin-top: 15px;
+    background: url(write.png) no-repeat scroll 0px 45% transparent;
+}
+.tit01 .rss {
+    margin-left: 10px;
+    padding-left: 20px;
+	margin-top: 15px;
+    background: url(rss.png) no-repeat scroll 0px 45% transparent;
+}
+.pg a.prev:hover { background: url(arw_l.gif) no-repeat center center #34A271}
+
+.tit05 {
+    width: 100%;
+    overflow: hidden;
+	padding: 0 0 10px 0;
+    border-bottom: 3px solid #3EC491;
+}
+.tit05 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #34A271;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.news_inner {
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 1px dotted #C6C6C6;
+    overflow: hidden;
+}
+.newspic01 {
+    float: left;
+	width: 220px;
+	height: 150px;
+    padding-right: 0;
+	overflow: hidden
+}
+..newspic01 img { width: 220px; height: 100%}
+.news_inner dl {
+    float: right;
+    width: 450px;
+}
+.news_inner dl dt {
+    float: left;
+    width: 450px;
+    padding-bottom: 11px;
+    overflow: hidden;
+}
+.news_inner dl dt a {
+    float: left;
+    width: 450px;
+    height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑","宋体",serif;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    overflow: hidden;
+}
+.news_inner dl dt a:hover {
+    color: #ED4747;
+}
+.news_inner dl dd {
+    float: left;
+    width: 450px;
+    line-height: 20px;
+}
+.news_inner .text {
+    float: left;
+    width: 450px;
+    height: 66px;
+    padding-bottom: 10px;
+    text-indent: 2em;
+    font-size: 12px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+    line-height: 22px;
+}
+.news_inner dl dd a {
+    color: #34A271;
+}
+.news_inner dl dd strong {
+    font-weight: bold;
+    color: #34A271;
+}
+
+
+/* 热门推荐 */
+.rmtj {
+    width: 100%;
+}
+.tit04 {
+    width: 100%;
+	padding-bottom: 12px;
+    overflow: hidden;
+    border-bottom: 3px solid #ED4747;
+    margin-bottom: 8px;
+}
+.tit04 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ED4747;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.rmtj dl {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #C5C5C5;
+}
+.rmtj dl dt {
+    width: 100%;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+.rmtj dl dt a {
+    float: left;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑";
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.rmtj dl dt a:hover { color: #ED4747}
+.rmtj dl dd { width: 100%; height: 20px; line-height: 20px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden}
+
+.reads {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.reads dl {
+    width: 100%;
+    padding-top: 16px;
+}
+.reads dl dt {
+    width: 100%;
+    padding-bottom: 0px;
+}
+.reads dl dd {
+    width: 100%;
+    overflow: hidden;
+}
+.reads dl dd a {
+    float: left;
+    line-height: 28px;
+    width: 100%;
+    font-family: "微软雅黑";
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+}
+.reads ul li {
+    width: 100%;
+    line-height: 35px;
+    border-bottom: 1px dotted #C5C5C5;
+    overflow: hidden;
+}
+.reads ul li a {
+    float: left;
+    width: 204px;
+    height: 35px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.taber { padding-top: 20px}
+.taber .tb { height: 37px; overflow: visible; padding: 0 !important}
+.taber .tb a { border: 0; padding: 0; text-align: center}
+.taber .tb li { float: left; width: 108px; line-height: 32px; font-size: 18px; margin: 0 2px 0 0; color: #FFFFFF; overflow: visible; background: #3A3939}
+.taber .tb li a { width: 108px; text-align: center; overflow: visible; font-family: "Microsoft Yahei"; color: #FFFFFF}
+.taber .tb .a { height: 37px; overflow: visible; background: url(tab_bg02.jpg) no-repeat left top}
+.taber .tb .a a { height: 37px; color: #FFFFFF; font-weight: 400; background: none}
+.taber .tb-c { padding: 10px 0}
+.taber .tab-title { height: 37px; background: none}
+
+
+/* 最新评论 */
+.comments_list {
+    width: 100%;
+}
+.rc-clearfix {
+    display: block;
+}
+.comments_list dl {
+    border-bottom: 1px dotted #C5C5C5;
+    overflow: hidden;
+    padding: 12px 0px;
+    width: 100%;
+}
+.comments_list dl dt {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.rc-item .rc-avatar {
+    background: none repeat 0 0 #FFFFFF;
+    padding: 1px;
+    border: 1px solid #999999;
+}
+.rc-item .rc-left {
+    display: inline;
+    float: left;
+    margin-right: 8px;
+}
+.comments_list dl dd {
+    float: right;
+    width: 168px;
+}
+.comments_list dl dd a {
+    width: 170px;
+    height: 22px;
+	line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    display: block;
+}
+.rc-item .rc-timestamp {
+    margin-left: 8px;
+    font-size: 11px;
+    color: #999999;
+}
+.comments_list dl dd a:hover {
+    color: #ED4747;
+    text-decoration: underline;
+}
+.acv_author {
+    color: #18A24C;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+.acv_author a {
+    color: #18A24C;
+}
+.acv_comment {
+    padding: 2px;
+    background: none repeat scroll 0% 0% #FFF;
+    overflow: hidden;
+}
+.acv_comment a {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+.votehot {
+    float: right;
+    padding-right: 10px;
+}
+a.ilike_icon:link, a.ilike_icon:hover, a.ilike_icon:visited, a.ilike_icon:active {
+    background: url(deng.png) no-repeat scroll 0px 0px transparent;
+    padding-left: 15px;
+}
+
+
+/* 今日热门 */
+.focus_box3 { float: left; width: 220px; position: relative; height: 150px; padding: 0; margin-top: 10px; overflow: hidden; background: #FFFFFF}
+.focus_box3 .bd3 li { display: block; height: 150px; position: relative}
+.focus_box3 .txt { background: none; position: absolute; width: 220px; height: auto; bottom: 0; left: 0; z-index: 2;overflow: hidden; padding: 0 0; background: #268D5F}
+.focus_box3 .txt h2 { float: left; width: 210px; padding: 5px; height: auto; overflow: hidden}
+.focus_box3 .txt h2 a { font-size: 12px; line-height: 18px; color: #FFFFFF; text-decoration: none; font-weight: 400}
+.focus_box3 img{ display: block}
+.focus_box3 .btn3 a { float: left;  display: block; background-image: url(arrow.png); background-repeat: no-repeat}
+.focus_box3 .btn3 a:hover { color: #FFFFFF; background: #268D5F}
+.focus_box3 .btn3 .prev { position: absolute; padding: 10px; left: 0; top: 55px; background: #FFFFFF}
+.focus_box3 .btn3 .next { position: absolute; padding: 10px; right: 0; top: 55px; background: #FFFFFF}

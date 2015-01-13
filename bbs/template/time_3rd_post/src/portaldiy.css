@@ -1,0 +1,958 @@
+/* CSS Document */
+
+/* 门户首页幻灯片样式 */
+.focus_box { width: 700px; position: relative; height: 410px; overflow: hidden; float: left; margin: 0 0 20px 0}
+.focus_box .bd {}
+.focus_box .bd li { position: relative}
+.focus_box .bd li .info { height: 95px}
+.focus_box .bd .black_bg { width: 700px; height: 20px; padding: 0; color: #888888; position: absolute; left: 0; bottom: 0; z-index: 100; background: url(png.png) repeat 0 0}
+.focus_box .bd h2 { height: 28px; overflow: hidden; line-height: 28px; margin: 0 0 4px 0}
+.focus_box .bd h2 a { font-size: 24px; color: #333333; font-weight: bold; padding: 0 0 0 15px; border-left: 5px solid #333333}
+.focus_box .bd p { width: 680px; padding: 8px 0 0 0; text-indent: 20px; font-size: 12px; line-height: 23px; color: #555555}
+.focus_box img { display: block}
+.focus_box .hd { position: absolute; right: 10px; bottom: 5px; height: 10px; overflow: hidden; z-index: 150}
+.focus_box .hd li { float: left; text-indent: -9999px; display: block; margin: 0 0 0 5px; width: 25px; height: 10px; background: url(white2.png) repeat 0 0}
+.focus_box .hd .on { background: url(white.png) repeat 0 0}
+.focus_box .prev { width: 45px; height: 100px; position: absolute; left: 0; bottom: 125px; opacity: 0.4; transition: all 0.5s ease 0s; background: url(arrows2.png) no-repeat 0 0; cursor: pointer}
+.focus_box .prev:hover { opacity: 1}
+.focus_box .next { width: 45px; height: 100px; position: absolute; right: 0; bottom: 125px; opacity: 0.4; transition: all 0.5s ease 0s; background: url(arrows2.png) no-repeat right top; cursor: pointer}
+.focus_box .next:hover { opacity: 1}
+.ie6 .focus_box .prev, .ie7 .focus_box .prev { background: url(arrows.png) no-repeat 0 0}
+.ie6 .focus_box .next, .ie7 .focus_box .next { background: url(arrows.png) no-repeat right top}
+
+a:hover { color: #ED4747; text-decoration: underline}
+
+.part1 { margin-top: 30px}
+.part1-l { float: left; width: 700px; padding-bottom: 20px}
+.part1-r { float: right; width: 220px}
+
+.part2 {}
+.part2-l { float: left; width: 700px; padding-bottom: 20px}
+.part2-r { float: right; width: 220px}
+
+.news_list01 {
+    width: 100%;
+}
+.tit01 {
+    width: 100%;
+	padding: 0 0 10px 0;
+    overflow: hidden;
+    border-bottom: 3px solid #4A4A4A;
+}
+.tit01 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000000;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.tit01 span a, .tit02 span a, .meeting span a, .news_tz span a { font-family: Arial, Helvetica, sans-serif, "宋体"}
+
+
+.news_inner {
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 1px dotted #C6C6C6;
+    overflow: hidden;
+}
+.news_inner .name {
+    float: left;
+    padding-left: 18px;
+    height: 20px;
+    background: url(news-icon.jpg) no-repeat scroll left 3px transparent;
+}
+.news_inner .identity {
+    float: left;
+    height: 12px;
+    padding: 3px 40px 0px 0px;
+}
+.news_inner .time {
+    float: left;
+    padding-left: 19px;
+	margin: 0 0 0 40px;
+    color: #B8B8B8;
+    background: url(news-icon.jpg) no-repeat scroll left -29px transparent;
+}
+.news_inner .tags a {
+    display: inline-block;
+    height: 19px;
+    line-height: 19px;
+    color: #666;
+    padding: 0px 10px;
+    border: 1px solid #E2E2E2;
+    border-radius: 3px;
+    margin-right: 6px;
+    font-family: "微软雅黑";
+    text-decoration: none;
+}
+.news_inner .news_bot {
+    float: right;
+    width: 450px;
+}
+.news_inner .tags {
+    float: left;
+}
+.news_inner .look {
+    float: right;
+}
+.news_inner .look strong {
+    color: #34A271;
+	font-weight: 400 !important
+}
+.newspic01 {
+    float: left;
+    padding: 3px 30px 0 0;
+}
+.news_inner dl {
+    float: right;
+    width: 450px;
+}
+.news_inner dl dt {
+    float: left;
+    width: 450px;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+.news_inner dl dt a {
+    float: left;
+    width: 450px;
+    height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑","宋体",serif;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    overflow: hidden;
+}
+.news_inner dl dt a:hover { color: #ED4747; text-decoration: none}
+.news_inner .text {
+    float: left;
+    width: 450px;
+    min-height: 63px;
+    padding: 10px 0 13px 0;
+    text-indent: 2em;
+    font-size: 12px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+    line-height: 20px;
+}
+.news_inner dl dd {
+    float: left;
+    width: 450px;
+    line-height: 20px;
+}
+.news_inner dl dd a {
+    color: #559235;
+}
+.news_inner dl dd strong {
+    font-weight: bold;
+    color: #559235;
+}
+.more01 {
+    width: 700px;
+    height: 39px;
+    padding-top: 0;
+}
+.more01 a {
+    float: left;
+    width: 700px;
+    height: 39px;
+    background: url(more01.jpg) no-repeat scroll 0% 0% transparent;
+}
+.dujia { width: 960px; margin: 15px 0; overflow: hidden}
+
+/* 门户首页幻灯片样式 */
+.news01 {
+    width: 100%;
+    padding-bottom: 24px;
+}
+.news01_tit {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#focus_headliner {
+    width: 700px;
+    height: 28px;
+    overflow: hidden;
+    position: relative;
+}
+#focus_headliner ul {
+    height: 28px;
+    position: absolute;
+}
+#focus_headliner ul li {
+    float: left;
+    width: 700px;
+    height: 28px;
+    overflow: hidden;
+    position: relative;
+}
+.news01_tit h3 {
+    float: left;
+    width: 650px;
+    border-left: 5px solid #4A4A4A;
+    padding-left: 12px;
+    overflow: hidden;
+}
+.news01_tit h3 a {
+    float: left;
+    width: 650px;
+    height: 28px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑";
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.news01_con {
+    width: 100%;
+}
+#focus_desc01 {
+    width: 700px;
+    height: 54px;
+    overflow: hidden;
+    position: relative;
+}
+#focus_desc01 ul {
+    height: 54px;
+    position: absolute;
+}
+#focus_desc01 ul li {
+    float: left;
+    width: 700px;
+    height: 54px;
+    overflow: hidden;
+    position: relative;
+}
+.news01_con .text {
+    width: 100%;
+    line-height: 24px;
+    padding-bottom: 6px;
+    text-indent: 2em;
+    font-size: 12px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+}
+#focus {
+    width: 700px;
+    height: 314px;
+    overflow: hidden;
+    position: relative;
+}
+#focus ul {
+    height: 314px;
+    position: absolute;
+}
+#focus ul li {
+    float: left;
+    width: 700px;
+    height: 314px;
+    overflow: hidden;
+    position: relative;
+    background: none repeat scroll 0% 0% #000;
+}
+#focus .btnBg {
+    position: absolute;
+    width: 700px;
+    height: 20px;
+	_height: 25px;
+    left: 0;
+    bottom: 0;
+	opacity: 1 !important;
+    background: url(png.png);
+}
+#focus .btn {
+    position: absolute;
+    width: 780px;
+    height: 10px;
+    padding: 5px 10px;
+    right: 0px;
+    bottom: 0px;
+    text-align: right;
+}
+#focus .btn span { display: inline-block; width: 25px; height: 10px; margin-left: 5px; cursor: pointer; background: none repeat 0 0 #FFFFFF}
+.ie6 #focus .btn span { display: inline; height: 1px !important; padding: 0 !important}
+#focus .preNext { width: 45px; height: 100px; position: absolute; top: 90px; cursor: pointer; background: url(arrows.png) no-repeat 0 0}
+#focus .pre { left: 0}
+#focus .next { right: 0; background-position: right top}
+
+/* 热门推荐 */
+.rmtj {
+    width: 100%;
+}
+.tit04 {
+    width: 100%;
+	padding-bottom: 12px;
+    overflow: hidden;
+    border-bottom: 3px solid #ED4747;
+    margin-bottom: 8px;
+}
+.tit04 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #ED4747;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.rmtj dl {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 12px;
+    border-bottom: 1px dotted #C5C5C5;
+}
+.rmtj dl dt {
+    width: 100%;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+.rmtj dl dt a {
+    float: left;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: "微软雅黑";
+    color: #000000;
+    font-size: 16px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.rmtj dl dt a:hover { color: #ED4747}
+.rmtj dl dd { width: 100%; height: 20px; line-height: 20px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden}
+
+.btn_tg {
+    width: 100%;
+	height: 41px;
+    padding: 28px 0 20px 0;
+    overflow: hidden;
+}
+.btn_tg a {
+    float: left;
+    width: 220px;
+    height: 41px;
+	margin-bottom: 20px;
+	transition: all 0s ease 0s;
+    background: url(btn.jpg) no-repeat 0 0;
+}
+.btn_tg a:hover {
+    background: url(btn.jpg) no-repeat 0 -41px;
+}
+
+.taber { padding-top: 20px}
+.taber .tb { height: 37px; overflow: visible; padding: 0 !important}
+.taber .tb a { border: 0; padding: 0; text-align: center}
+.taber .tb li { float: left; width: 108px; line-height: 32px; font-size: 18px; margin: 0 2px 0 0; color: #FFFFFF; overflow: visible; background: #3A3939}
+.taber .tb li a { width: 108px; text-align: center; overflow: visible; font-family: "Microsoft Yahei"; color: #FFFFFF}
+.taber .tb .a { height: 37px; overflow: visible; background: url(tab_bg02.jpg) no-repeat left top}
+.taber .tb .a a { height: 37px; color: #FFFFFF; font-weight: 400; background: none}
+.taber .tb-c { padding: 10px 0}
+.taber .tab-title { height: 37px; background: none}
+
+
+/* 最新评论 */
+.comments_list {
+    width: 100%;
+}
+.rc-clearfix {
+    display: block;
+}
+.comments_list dl {
+    border-bottom: 1px dotted #C5C5C5;
+    overflow: hidden;
+    padding: 12px 0px;
+    width: 100%;
+}
+.comments_list dl dt {
+    float: left;
+    width: 40px;
+    height: 40px
+}
+.rc-item .rc-avatar {
+    background: none repeat 0 0 #FFFFFF;
+    padding: 1px;
+    border: 1px solid #999999;
+}
+.rc-item .rc-left {
+    display: inline;
+    float: left;
+    margin-right: 8px;
+}
+.comments_list dl dd {
+    float: right;
+    width: 168px;
+}
+.comments_list dl dd a {
+    width: 170px;
+    height: 22px;
+	line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    display: block;
+}
+.rc-item .rc-timestamp {
+    margin-left: 8px;
+    font-size: 11px;
+    color: #999999;
+}
+.comments_list dl dd a:hover {
+    color: #ED4747;
+    text-decoration: underline;
+}
+.acv_author {
+    color: #18A24C;
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+.acv_author a {
+    color: #18A24C;
+}
+.acv_comment {
+    padding: 2px;
+    background: none repeat scroll 0% 0% #FFF;
+    overflow: hidden;
+}
+.acv_comment a {
+    font-family: "微软雅黑";
+    font-size: 12px;
+}
+.votehot {
+    float: right;
+    padding-right: 10px;
+}
+a.ilike_icon:link { padding: 0 0 0 15px; background: url(deng.png) no-repeat 0 0}
+a.ilike_icon:hover { color: #18A24C; background: url(deng.png) no-repeat 0 -22px}
+
+
+/* 今日热门 */
+.focus_box3 { float: left; width: 220px; position: relative; height: 150px; padding: 0; margin-top: 15px; overflow: hidden; background: #FFFFFF}
+.focus_box3 .bd3 li { display: block; height: 150px; position: relative}
+.focus_box3 .txt { background: none; position: absolute; width: 220px; height: auto; bottom: 0; left: 0; z-index: 2;overflow: hidden; padding: 0 0; background: #268D5F}
+.focus_box3 .txt h2 { float: left; width: 200px; padding: 0 10px; height: 28px; overflow: hidden}
+.focus_box3 .txt h2 a { font-size: 12px; line-height: 28px; color: #FFFFFF; text-decoration: none; font-weight: 400}
+.focus_box3 img{ display: block}
+.focus_box3 .btn3 a { float: left;  display: block; background-image: url(arrow.png); background-repeat: no-repeat}
+.focus_box3 .btn3 a:hover { color: #FFFFFF; background: #598D3A}
+.focus_box3 .btn3 .prev { position: absolute; padding: 10px; left: 0; top: 55px; background: #FFFFFF}
+.focus_box3 .btn3 .next { position: absolute; padding: 10px; right: 0; top: 55px; background: #FFFFFF}
+
+
+/* 作者推荐 */
+.tit03 {
+    width: 100%;
+	padding: 0 0 10px 0;
+    overflow: hidden;
+    border-bottom: 3px solid #3DC490;
+    margin-bottom: 8px;
+}
+.tit03 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #2AAA79;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.talent_show .list {
+    width: 100%;
+}
+.author-m {
+    background: none repeat scroll 0px center transparent;
+    border-bottom: 1px dotted #CCC;
+    margin-top: -1px;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 15px 0 16px 0;
+}
+.clearfix { clear: both}
+.author-pic {
+    position: relative;
+    height: 110px;
+    width: 110px;
+    margin: 0px auto;
+    border-radius: 100%;
+    border: 6px solid #FFFFFF;
+    box-shadow: 0px 1px 5px 1px #E4E4E4;
+    overflow: hidden;
+}
+.author-m .author-pic {
+    float: left;
+    height: 55px;
+    width: 55px;
+    margin-right: 10px;
+    margin-left: 3px;
+    border: none;
+}
+.author-pic img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 110px;
+    width: 110px;
+}
+.author-m .author-pic img {
+    height: 55px;
+    width: 55px;
+}
+.author-name {
+    padding: 10px 0px;
+    text-align: center;
+    font: 22px/24px "微软雅黑";
+}
+.author-m .author-name {
+    padding: 0px;
+    margin-left: 55px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+    font-weight: bold;
+}
+.author-name a {
+    color: #636363;
+}
+.author-m .author-text {
+    margin-left: 55px;
+    font-size: 12px;
+    text-align: left;
+    white-space: nowrap;
+	color: #999999;
+}
+.author-m .author-artical {
+    margin-left: 65px;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+/* 最IN话题 */
+.tit02_2 {
+    width: 100%;
+	padding: 0 0 10px 0;
+    overflow: hidden;
+    border-bottom: 3px solid #1BA2E0;
+    margin-bottom: 0px;
+}
+.tit02_2 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #1397D4;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.superin {
+    margin-top: 10px;
+}
+.superin li {
+    height: 120px;
+    padding-bottom: 40px;
+}
+.superin li img {
+    width: 220px;
+    height: 126px;
+    margin-top: 10px;
+}
+.superin .infoin {
+    float: left;
+    width: 220px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.superin .infoin span a {
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.quote {
+    overflow: hidden;
+    background: url(quotel.png) no-repeat scroll left 4px transparent;
+    word-wrap: break-word;
+    margin: 5px 0px 0px;
+    padding: 0px 0px 0px 15px;
+}
+.quote span.inq {
+    background: url(quoter.png) no-repeat scroll right bottom transparent;
+    color: #333333;
+    padding-right: 0;
+    display: inline-block;
+    word-break: break-all;
+}
+
+
+/* 不容错过 */
+.nomissing { width: 100%; height: 105px; padding: 5px 0 20px 0; overflow: hidden}
+.con_inner02 {
+    float: left;
+    width: 100%;
+}
+.month {
+    width: 100%;
+	height: 105px;
+	overflow: hidden;
+    background: none repeat scroll 0% 0% #F2F2F2;
+    margin-bottom: 0;
+    display: inline;
+}
+.month dl {
+    width: 100%;
+    height: 106px;
+    overflow: hidden;
+}
+.month dl dt {
+    float: left;
+    width: 135px;
+    height: 105px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 105px;
+    font-family: "微软雅黑";
+    background: none repeat scroll 0% 0% #E2E2E2;
+    color: #333333;
+}
+.month dl dd {
+    float: left;
+    width: 163px;
+    height: 105px;
+    background: url(mouth_line.jpg) repeat-y scroll left center transparent;
+    padding-left: 2px;
+}
+.month .time {
+    width: 143px;
+    padding: 4px 10px 0 10px;
+    text-align: center;
+}
+.month .text {
+    width: 143px;
+    padding: 4px 10px 0 10px;
+    font-family: "微软雅黑";
+    line-height: 24px;
+    color: #333333;
+    overflow: hidden;
+}
+.month .text a {
+    font-size: 15px;
+    color: #333333;
+}
+.month .text a:hover { text-decoration: underline}
+
+
+/* 门户首页技术区样式 */
+.technology {
+    width: 100%;
+	height: 260px;
+	overflow: hidden;
+    padding-bottom: 20px;
+}
+.tit02 {
+    width: 100%;
+    overflow: hidden;
+	padding: 0 0 10px 0;
+    border-bottom: 3px solid #1BA2E0;
+    margin-bottom: 25px;
+}
+.tit02 h3 {
+    float: left;
+    height: 35px;
+    padding-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #1397D4;
+    font-family: "微软雅黑";
+    font-size: 24px;
+    font-weight: normal;
+    overflow: hidden;
+}
+.tit02 span { margin-top: 12px}
+.technology dl {
+    width: 100%;
+    overflow: hidden;
+}
+.technology dl dt {
+    float: left;
+    width: 275px;
+    padding-right: 25px;
+}
+.technology dl dd {
+    float: left;
+    width: 400px;
+}
+.technology dl dd a {
+    float: left;
+    width: 384px;
+    padding-left: 16px;
+    background: url(icon_cicle.jpg) no-repeat scroll left 7px transparent;
+    height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 13px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+}
+
+
+/* 门户首页安全会议样式 */
+.meeting {
+    width: 100%;
+	height: 260px;
+	overflow: hidden
+}
+.meeting ul {
+    width: 100%;
+    padding-top: 6px;
+}
+.meeting ul li {
+    width: 100%;
+    line-height: 35px;
+    border-bottom: 1px dotted #C5C5C5;
+    overflow: hidden;
+    font-size: 13px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+}
+.ie7 .meeting ul li { height: 29px; line-height: 29px; overflow: hidden}
+.meeting .time2 {
+    float: left;
+    width: 76px;
+}
+.meeting ul li a {
+    float: left;
+    width: 144px;
+    height: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #1BA2E0;
+    text-indent: 0.5em;
+}
+
+
+/* 视频 */
+.video {
+    width: 100%;
+}
+.video_con {
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.video_big {
+    float: left;
+    margin: 0px 20px 20px 0px;
+    position: relative;
+}
+.mosaic-block {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 460px;
+    height: 272px;
+}
+.mosaic-block h3 { margin: 4px 0 0 0; font-family: Arial,Verdana,Geneva,sans-serif,"宋体"; opacity: 0.9}
+.mosaic-block p { font-family: Arial,Verdana,Geneva,sans-serif,"宋体"; opacity: 0.8}
+.mosaic-overlay {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+	transition: all 0.5s ease 0s;
+    background: url(black2.png)
+}
+.bar2 .mosaic-overlay { bottom: -50px; height: 90px !important}
+.video_big:hover .mosaic-overlay { bottom: 0 !important}
+.video_list1 {
+    float: left;
+    width: 220px;
+}
+.video_list1 ul {
+    float: left;
+    width: 100%;
+}
+.video_list1 ul li {
+    float: left;
+    width: 100%;
+    height: 126px;
+    margin-bottom: 20px;
+    position: relative;
+	overflow: hidden
+}
+.f_s_bg {
+    width: 100%;
+    height: 26px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: url(black.png);
+}
+.f_s_txt {
+    width: 200px;
+    height: 26px;
+    line-height: 26px;
+	padding: 0 10px;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.f_s_txt a {
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 26px;
+	color: #FFFFFF;
+	opacity: 0.9;
+	font-family: Arial,Verdana,Geneva,sans-serif,"宋体";
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.f_s_txt a:hover { color: #FFFFFF}
+.video_list2 { float: left; width: 100%}
+.video_list2 ul { float: left; width: 100%}
+.video_list2 ul li { float: left; width: 220px; height: 126px; margin-right: 20px; position: relative; overflow: hidden}
+
+
+/* 安全招聘 */
+.news_tz {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: "微软雅黑","Microsoft YaHei","WenQuanYi Micro Hei";
+}
+.news_tz ul {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 6px;
+}
+.news_tz ul li {
+    float: left;
+    width: 100%;
+    border-bottom: 1px dotted #C5C5C5;
+    padding: 8px 0;
+}
+.news_tz ul li a {
+    float: left;
+    color: #444444;
+}
+
+
+/* FB独家 */
+.exclusive {
+    width: 100%;
+	margin-top: 10px;
+    text-align: center;
+    background: url(tit04_bg.jpg) no-repeat scroll 0% 0% transparent;
+}
+.exclusive h3 {
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 32px;
+}
+.con_inner02 {
+    float: left;
+    width: 100%;
+}
+.exclusive_con {
+    float: left;
+    width: 286px;
+    padding: 16px 51px 0px 0px;
+}
+.exclusive_con h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 20px;
+    color: #559235;
+    line-height: 32px;
+}
+.exclusive_con dl {
+    float: left;
+    width: 100%;
+    padding-top: 10px;
+}
+.exclusive_con dl dt {
+    float: left;
+    width: 100%;
+    padding-bottom: 3px;
+}
+.exclusive_con dl dd {
+    float: left;
+    width: 100%;
+    line-height: 32px;
+    font-size: 14px;
+}
+.exclusive_con dl dd a {
+    float: left;
+    width: 286px;
+    height: 32px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: "微软雅黑";
+    font-size: 13px;
+}
+
+
+/* 门户首页友情链接样式 */
+.friend_link li { float: left; padding: 6px 10px}
+.friend_link li a { color: #555555}
+.linkBox {
+    width: 960px;
+    height: 60px;
+    background: none repeat scroll 0% 0% rgb(244, 244, 244);
+    margin: 30px auto 20px auto;
+    overflow: hidden;
+}
+.linkBox .youlian {
+    padding-right: 7px;
+    width: 105px;
+    height: 60px;
+    display: block;
+    float: left;
+}
+.friendLink {
+    width: 105px;
+    height: 60px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    padding-right: 7px;
+    font-weight: bold;
+    line-height: 61px;
+    text-align: center;
+    font-size: 16px;
+    color: #FFFFFF;
+	background: url(tit_bg.png) no-repeat 0 0
+}
+.linkBox .textLink {
+    width: 820px;
+    height: 52px;
+    float: left;
+    padding: 4px 0
+}

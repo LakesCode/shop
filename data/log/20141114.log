@@ -1,0 +1,6 @@
+[2014-11-14 19:40:07] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'gc_type' in 'field list'
+SELECT gc_id, gc_name, type_id, gc_parent_id, gc_sort,gc_type FROM `emall`.`shopnc_goods_class` WHERE ( gc_type = 'default' ) ORDER BY gc_parent_id asc,gc_sort asc,gc_id asc LIMIT 10000  
+[2014-11-14 19:40:07] /shop/ ( act=index&op=index ) 
+ERR: Db Error: Unknown column 'gc_type' in 'field list'
+SELECT gc_id, gc_name, type_id, gc_parent_id, gc_sort,gc_type FROM `emall`.`shopnc_goods_class` WHERE ( gc_type = 'newclass1' ) ORDER BY gc_parent_id asc,gc_sort asc,gc_id asc LIMIT 10000  

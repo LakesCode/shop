@@ -1,0 +1,216 @@
+/* ----------------------------------
+
+The Part CSS by time
+(C) time Inc.
+
+
+-------------------------------------*/
+
+
+
+/** forum,group **/
+
+
+.fl .bm_h, .bm_h, .bmw .bm_h { margin-bottom: 0; font-family: "Microsoft Yahei"; font-weight: normal; height: 40px; line-height: 40px; background: none repeat 0 0}
+.tl .th, .tl tr:hover th, .tl tr:hover td { background: none}
+.tl .th, .tl th, .tl td { border-bottom: 1px solid #F6F6F6}
+.bmw .bm_h a, .bmw .bm_h h2 { font-size: 16px}
+.bbs { border-bottom: 1px solid #EEEEEE !important}
+.bm_c { padding: 5px 1px}
+.bbda { border-bottom: 1px dashed #DDDDDD}
+
+
+
+
+
+/* 板块样式
+-----------------------------------------------*/
+
+
+
+.fl_g dl { margin-left: 60px; padding-left: 10px}
+.fl_g dt, .fl_g dd { margin-bottom: 5px}
+.fl_tb td { padding: 15px 0}
+.time_relative { position: relative; padding-right: 20px; _margin-top: 25px; overflow: visible}
+.ie6 .time_relative, .ie7 .time_relative { padding-right: 10px}
+.fl_tb td.fl_i .f_threads { position: absolute; top: 10px; right: 30px}
+.ie6 .fl_tb td.fl_i .f_threads, .ie7 .fl_tb td.fl_i .f_threads { right: 38px}
+.fl_tb td .line { font-size: 50px; color: #999999}
+.fl_tb td.fl_i .f_posts { position: absolute; bottom: 10px; left: 123px}
+.ie6 .fl_tb td.fl_i .f_posts { left: 13px; top: 46px}
+.ie7 .fl_tb td.fl_i .f_posts { left: 118px}
+
+.fl_tb td.fl_by p, .fl_tb td.fl_by p a { color: #16A1E2}
+.fl_tb td.fl_by p a { padding: 0 3px}
+.fl_tb td.fl_by cite { color: #666666;font-size: 10px}
+.fl_tb td.fl_by cite { color: #666666;font-size: 10px}
+
+.fl_tb h2, fl_g dt { line-height: 20px}
+.fl_tb h2 a, .fl_g dt a { font-size: 16px; font-weight: 100}
+.fl_tb h2 a { font-weight: 100; transition: background-color 0.3s linear 0s}
+.fl_tb h2 a:hover { color: #333333}
+.fl_tb p.xg2, .fl_g dd p.xg2 { overflow: hidden; line-height: 18px}
+
+
+/* 分类
+-----------------------------------------------*/
+
+#threadlist { border: 0}
+#postlist { border: 1px solid #EEEEEE}
+#thread_types { padding: 0; margin: 0 !important}
+
+.ttp a, .ttp strong {
+    border: medium none;
+    text-decoration: none;
+    padding: 5px 0px;
+    margin-right: 20px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+	transition: all 0.5s ease 0s
+}
+.ttp .a a, .ttp a:hover {
+    color: #34A271;
+    border-bottom: 2px solid #34A271;
+    padding: 5px 0px 3px;
+    font-weight: normal;
+	background: none repeat 0 0
+}
+.ttp .num {
+    background: none repeat scroll 0% 0% transparent;
+    color: #888 !important;
+    margin-left: 0px;
+    font-size: 12px;
+}
+.ttp .a .num {
+    background: none repeat scroll 0% 0% transparent;
+    font-weight: normal;
+}
+
+.tl th, .tl td { padding: 10px 0}
+
+/** end **/
+
+
+/** forum::forumdisplay,group::forumdisplay **/
+
+.rules { border: 1px dashed #DDDDDD; padding: 10px; background: #F6F6F6}
+
+.bml .bm_h { border: none; border-bottom: 3px solid #F6F6F6; margin-bottom: 10px; height: 36px; line-height: 36px; padding: 0; background: none}
+
+/* 主体推荐 */
+
+
+
+
+/* 帖子列表
+-----------------------------------------------*/
+
+
+
+
+#atarget{ margin-right: 10px}
+.tl th, .tl td { padding: 5px 0}
+.tl th .tdpre, .tl td.fn .tdpre { margin-right: 20px}
+.showhide { margin: 5px 15px 0px 5px}
+
+.tl .icon { width: 50px}
+.tl .icon img { width: 38px; height: 38px; border-radius: 3px}
+.tl .num { width: 90px; line-height: 14px}
+.tl td.num a {color: #333333;vertical-align: middle;line-height: 1.1em;font-family: Arial;position: relative;margin-right: -5px;display: inline-block;top: -5px;}
+.tl td.num .line {color: #D1D1D1;font-size: 30px;font-family: Arial;line-height: 1em;vertical-align: middle;font-family: Courier New;}
+.tl td.num em {color: #333;font-size: 12px;line-height: 1.1em;font-family: Arial;position: relative;margin-left: -5px;vertical-align: middle;display: inline-block;bottom: -5px;}
+#separatorline .ts th, #separatorline .ts td{border-bottom: 1px solid #F6F6F6;}
+
+
+
+/* 预览
+-----------------------------------------------*/
+
+
+
+
+.tl .threadpre td, .tl .threadpre:hover td{ background:#FFF;}
+.tl .threadpre .threadpretd{ border:none;}
+.fastpreview{width: 100%;margin:10px 0 10px 58px;padding: 10px 10px 30px 10px;border: 1px solid #EDEDED;border-radius: 5px;}
+.fastpreview .icon_preview {top:-8px;}
+.fastpreview .avt img{ padding:0; border:none; width:36px; height:36px; border-radius:36px;}
+.fastpreview .bbda{ border-bottom:1px solid #F6F6F6;}
+.fastpreview .showhide{position: absolute;bottom: 10px;right: 0;}
+.emptb th, .emptb td {padding: 0;border-bottom: none; height:0; line-height:0;}
+
+
+
+/* 分类
+-----------------------------------------------*/
+
+
+.pop_moremenu li { margin: 3px}
+.pop_moremenu .pipe { margin: 0 2px}
+.pop_moremenu a.xw1 { background: none}
+.p_pop a { border-bottom: 1px solid #F3F3F3; transition: all 0.5s ease 0s}
+.p_pop a:hover, .p_pop a.a, #sctype_menu .sca { color: #FFFFFF; background: #34A271}
+.p_pop, .p_pof, .sllt { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1); box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border: 1px solid #DDDDDD; border-radius: 5px}
+.p_pop{ border-radius: 0}
+
+
+
+/* 快速发帖
+-----------------------------------------------*/
+
+
+
+#f_pst .bm_c { padding: 0; padding-top: 10px}
+
+/** end **/
+
+
+/** forum::viewthread,group::viewthread **/
+
+
+.ad .plc, .ad .pls {background: #F0F4F8;}
+.pls { background: #FBFBFB;border-right: 1px solid #F0F4F8;}
+.pi { border-bottom: 1px dashed #E5E5E5;}
+.pls .avatar img{ background:#FFF;border: 1px solid #F0F4F8;}
+#f_pst{border: 4px solid #F0F4F8;}
+.tns th{border-right: 1px solid #F0F0F0;}
+
+.p_pop, .p_pof, .sllt{-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);border: 1px solid #DDD;border-radius: 5px;}
+.p_pop{ border-radius:0;}
+
+.bui{border: 4px solid rgba(0, 0, 0, 0.05);_border: 4px solid #F2F2F2;box-shadow: none; background:#FFF;-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+#p_btn{ text-align:left;}
+#p_btn a{ background:none;}
+#p_btn i{ background:none;padding: 0 8px 0 0;}
+.pls .arr {background: url({STYLEIMGDIR}/arrwd.png) no-repeat 0px 0px;display: block;height: 11px;margin-left: 154px;position: absolute;margin-top: 52px;width: 7px;}
+
+
+/** end **/
+
+
+
+/** forum::collection,group::collection **/
+
+.tb_h{ background:none;}
+.tb_h li {margin-right: 3px;}
+.tb_h a {display: block;padding: 0 10px;border: 1px solid #CDCDCD;background: #E5EDF2;}
+.bml .bm_h{border-bottom: 3px solid #F4F4F4;height: 36px;line-height: 36px;}
+.bml .bm_h h1{float: left;font-size: 16px;font-weight: 700;}
+
+/** end **/
+
+
+/** home::space **/
+
+#uhd{ background:none; border:none;}
+#uhd .tb a{border: 1px solid #CDCDCD;}
+
+/** end **/
+
+
+
+/** misc::ranklist **/
+
+.xl2{ background:none;}
+
+/** end **/

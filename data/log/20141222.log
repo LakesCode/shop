@@ -1,0 +1,9 @@
+[2014-12-22 16:08:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_groupbuy' doesn't exist
+SELECT * FROM `shopnc_groupbuy` WHERE ( state = '20' ) AND ( start_time < '1419235733' ) AND ( end_time > '1419235733' ) ORDER BY recommended desc LIMIT 4  
+[2014-12-22 16:08:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_goods' doesn't exist
+SELECT * FROM `shopnc_p_xianshi_goods` WHERE ( state = '1' ) AND ( start_time < '1419235733' ) AND ( end_time > '1419235733' ) ORDER BY xianshi_recommend desc LIMIT 4  
+[2014-12-22 16:08:53] /shop/index.php ( act=index&op=index ) 
+ERR: Db Error: Table 'demo.shopnc_web' doesn't exist
+SELECT * FROM `shopnc_web` WHERE ( web_show = '1' ) AND ( web_page LIKE 'index%' ) ORDER BY web_sort LIMIT 1000  
